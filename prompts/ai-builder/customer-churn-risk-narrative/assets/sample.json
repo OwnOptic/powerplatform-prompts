@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+  "name": "pnp-powerplatform-prompts-customer-churn-risk-narrative",
+  "version": "1.0.0.0",
+  "title": "Customer Churn Risk Narrative",
+  "shortDescription": "Converts six customer health signals into a plain-English churn risk narrative with risk level, explanation, and 3 urgency-ordered recommended actions for account managers.",
+  "longDescription": "Uses chain-of-thought reasoning and multi-signal synthesis to assess login recency, support ticket volume/sentiment, renewal proximity, usage trend, NPS, and account tier. Outputs a churn risk level (Critical/High/Medium/Low), a 2–3 sentence narrative explaining the risk, three concrete actions for the account manager ordered by urgency, and a per-signal status table. Designed for weekly Power Automate batch processing of Dataverse/Dynamics 365 accounts.",
+  "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/ai-builder/customer-churn-risk-narrative",
+  "products": [
+    "AI Builder",
+    "Power Platform",
+    "Power Automate",
+    "Dataverse"
+  ],
+  "tags": [
+    "CUSTOMER SUCCESS",
+    "CHURN",
+    "RETENTION",
+    "CHAIN-OF-THOUGHT",
+    "MULTI-SIGNAL",
+    "CRM"
+  ],
+  "categories": [
+    "AI Builder"
+  ],
+  "metadata": [
+    {
+      "key": "prompt",
+      "value": "Based on customer signals [last_login_date], [ticket_count], [ticket_sentiment], [renewal_date], [usage_trend], [nps_score], [account_tier] — assess churn risk and recommend 3 actions."
+    }
+  ],
+  "thumbnails": [],
+  "authors": [
+    {
+      "gitHubAccount": "OwnOptic",
+      "name": "OwnOptic",
+      "pictureUrl": "https://github.com/OwnOptic.png"
+    }
+  ],
+  "creationDateTime": "2026-03-02T00:00:00Z",
+  "updateDateTime": "2026-03-02T00:00:00Z"
+}
