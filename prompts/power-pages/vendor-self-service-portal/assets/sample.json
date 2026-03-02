@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+  "name": "pnp-powerplatform-prompts-vendor-self-service-portal",
+  "version": "1.0.0.0",
+  "title": "Vendor Self-Service Portal",
+  "shortDescription": "Authenticated Power Pages portal for vendors to register, upload compliance documents, track PO and payment status, submit invoices, and receive certification expiry alerts.",
+  "longDescription": "This Power Pages prompt generates an authenticated B2B procurement portal. Vendors register with company details and tax ID, upload compliance certifications and insurance (with 30-day expiry alerts), view purchase order status, check payment status (Pending, Processing, Paid), and submit invoices. Uses role-based framing and introduces authenticated access and document lifecycle management patterns not present in existing Power Pages samples.",
+  "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/power-pages/vendor-self-service-portal",
+  "products": [
+    "Power Pages",
+    "Power Platform",
+    "Dataverse",
+    "Power Automate"
+  ],
+  "tags": [
+    "VENDOR MANAGEMENT",
+    "PROCUREMENT",
+    "AUTHENTICATED PORTAL",
+    "DOCUMENT MANAGEMENT",
+    "B2B"
+  ],
+  "categories": [
+    "Power Pages"
+  ],
+  "metadata": [
+    {
+      "key": "prompt",
+      "value": "As a procurement manager, I need a secure vendor portal for supplier registration, document upload, PO status tracking, and invoice submission with a dashboard."
+    }
+  ],
+  "thumbnails": [],
+  "authors": [
+    {
+      "gitHubAccount": "OwnOptic",
+      "name": "OwnOptic",
+      "pictureUrl": "https://github.com/OwnOptic.png"
+    }
+  ],
+  "creationDateTime": "2026-03-02T00:00:00Z",
+  "updateDateTime": "2026-03-02T00:00:00Z"
+}
