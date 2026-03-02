@@ -1,0 +1,42 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+  "name": "pnp-powerplatform-prompts-timesheet-app",
+  "version": "1.0.0.0",
+  "title": "Timesheet App",
+  "shortDescription": "Weekly timesheet Power App with multi-entry-per-day time logging, project and task type selection, running totals, manager approval routing, and approval history screen.",
+  "longDescription": "Professional services timesheet app built in Power Apps with Dataverse backend. Features: Monday–Friday grid with multiple time entries per day (project, task type: Development/Design/Meeting/Admin/Support, hours, note), running daily and weekly hour totals, weekly submit with lock-on-submit, Power Automate manager approval flow, and a history screen with Pending/Approved/Rejected status per past week. Suitable for consulting, agencies, legal, and IT services firms.",
+  "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/power-apps/timesheet-app",
+  "products": [
+    "Power Apps",
+    "Power Platform",
+    "Dataverse",
+    "Power Automate"
+  ],
+  "tags": [
+    "TIMESHEET",
+    "TIME TRACKING",
+    "PROFESSIONAL SERVICES",
+    "APPROVAL",
+    "DATAVERSE",
+    "PROJECT MANAGEMENT"
+  ],
+  "categories": [
+    "Power Apps"
+  ],
+  "metadata": [
+    {
+      "key": "prompt",
+      "value": "Create a weekly timesheet app with multi-entry time logging per day, project and task type selection, running totals, manager approval, and history screen."
+    }
+  ],
+  "thumbnails": [],
+  "authors": [
+    {
+      "gitHubAccount": "OwnOptic",
+      "name": "OwnOptic",
+      "pictureUrl": "https://github.com/OwnOptic.png"
+    }
+  ],
+  "creationDateTime": "2026-03-02T00:00:00Z",
+  "updateDateTime": "2026-03-02T00:00:00Z"
+}
