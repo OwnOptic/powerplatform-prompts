@@ -1,42 +1,54 @@
-{
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
-  "name": "pnp-powerplatform-prompts-weekly-kpi-digest-dataverse",
-  "version": "1.0.0.0",
-  "title": "Weekly KPI Digest from Dataverse",
-  "shortDescription": "Scheduled Power Automate flow that queries Dataverse for weekly sales data, calculates KPIs, and sends an HTML summary email via Outlook every Monday morning.",
-  "longDescription": "This Power Automate prompt generates a Monday morning KPI digest: it queries Dataverse for sales opportunities closed in the past 7 days, calculates total revenue, deal count, win/loss ratio, and average deal size, formats results as an HTML email with a summary table, and sends it to a distribution list via Outlook. Handles the empty-data edge case with a shorter notification. First prompt in the repository to target Dataverse for scheduled reporting.",
-  "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/power-automate/weekly-kpi-digest-dataverse",
-  "products": [
-    "Power Automate",
-    "Power Platform",
-    "Dataverse",
-    "Outlook"
-  ],
-  "tags": [
-    "KPI",
-    "REPORTING",
-    "DATAVERSE",
-    "SCHEDULED",
-    "SALES",
-    "EMAIL"
-  ],
-  "categories": [
-    "Power Automate"
-  ],
-  "metadata": [
-    {
-      "key": "prompt",
-      "value": "Build a scheduled workflow that queries Dataverse for weekly sales KPIs and sends an HTML digest email via Outlook every Monday."
-    }
-  ],
-  "thumbnails": [],
-  "authors": [
-    {
-      "gitHubAccount": "OwnOptic",
-      "name": "OwnOptic",
-      "pictureUrl": "https://github.com/OwnOptic.png"
-    }
-  ],
-  "creationDateTime": "2026-03-02T00:00:00Z",
-  "updateDateTime": "2026-03-02T00:00:00Z"
-}
+[
+  {
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+    "name": "pnp-powerplatform-prompts-weekly-kpi-digest-dataverse",
+    "version": "1.0.0.0",
+    "source": "pnp",
+    "creationDateTime": "2026-03-02T00:00:00Z",
+    "updateDateTime": "2026-03-02T00:00:00Z",
+    "title": "Weekly KPI Digest from Dataverse",
+    "shortDescription": "Scheduled Power Automate flow that queries Dataverse for weekly sales data, calculates KPIs, and sends an HTML summary email via Outlook every Monday morning.",
+    "longDescription": [
+      "This Power Automate prompt generates a Monday morning KPI digest: it queries Dataverse for sales opportunities closed in the past 7 days, calculates total revenue, deal count, win/loss ratio, and average deal size, formats results as an HTML email with a summary table, and sends it to a distribution list via Outlook. Handles the empty-data edge case with a shorter notification. First prompt in the repository to target Dataverse for scheduled reporting."
+    ],
+    "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/power-automate/weekly-kpi-digest-dataverse",
+    "products": [
+      "Power Automate",
+      "Power Platform",
+      "Dataverse",
+      "Outlook"
+    ],
+    "tags": [
+      "KPI",
+      "REPORTING",
+      "DATAVERSE",
+      "SCHEDULED",
+      "SALES",
+      "EMAIL"
+    ],
+    "categories": [
+      "Power Automate"
+    ],
+    "metadata": [
+      {
+        "key": "prompt",
+        "value": "Build a scheduled workflow that queries Dataverse for weekly sales KPIs and sends an HTML digest email via Outlook every Monday."
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/powerplatform-prompts/main/templates/previewprompts.png",
+        "alt": "Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "OwnOptic",
+        "name": "OwnOptic",
+        "pictureUrl": "https://github.com/OwnOptic.png"
+      }
+    ]
+  }
+]
