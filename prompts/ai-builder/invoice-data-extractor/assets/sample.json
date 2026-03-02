@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+  "name": "pnp-powerplatform-prompts-invoice-data-extractor",
+  "version": "1.0.0.0",
+  "title": "Invoice Data Extractor",
+  "shortDescription": "Extracts structured billing data from invoice images using AI Builder's image input — vendor, line items, totals, tax, currency — returned as strict JSON.",
+  "longDescription": "First repository prompt to use an image-type input. Analyzes invoice images or scanned PDFs and returns a complete JSON object with all billing fields (invoice number, dates, vendor, bill-to, line items array, subtotal, tax, total, currency, payment terms). Null values for missing fields ensure safe downstream processing in Power Automate. Replaces dedicated OCR pipelines for AP automation.",
+  "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/ai-builder/invoice-data-extractor",
+  "products": [
+    "AI Builder",
+    "Power Platform",
+    "Power Automate"
+  ],
+  "tags": [
+    "INVOICE",
+    "OCR",
+    "IMAGE INPUT",
+    "JSON",
+    "FINANCE",
+    "ACCOUNTS PAYABLE"
+  ],
+  "categories": [
+    "AI Builder"
+  ],
+  "metadata": [
+    {
+      "key": "prompt",
+      "value": "Analyze the [invoice_image] and extract all billing fields as strict JSON. Set missing fields to null."
+    }
+  ],
+  "thumbnails": [],
+  "authors": [
+    {
+      "gitHubAccount": "OwnOptic",
+      "name": "OwnOptic",
+      "pictureUrl": "https://github.com/OwnOptic.png"
+    }
+  ],
+  "creationDateTime": "2026-03-02T00:00:00Z",
+  "updateDateTime": "2026-03-02T00:00:00Z"
+}
