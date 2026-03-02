@@ -1,41 +1,53 @@
-{
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
-  "name": "pnp-powerplatform-prompts-document-approval-with-escalation",
-  "version": "1.0.0.0",
-  "title": "Document Approval with Escalation",
-  "shortDescription": "Power Automate workflow that routes new SharePoint documents to reviewers, escalates to managers after 48 hours, and posts the final decision to Teams.",
-  "longDescription": "This Power Automate prompt creates a multi-stage document approval flow: triggered on new SharePoint file uploads, it looks up the reviewer from a mapping list, sends an approval request, waits 48 hours, escalates to the department manager if unresponded, then updates the SharePoint status column and posts the outcome to a Teams channel. Demonstrates the timeout-and-escalate pattern.",
-  "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/power-automate/document-approval-with-escalation",
-  "products": [
-    "Power Automate",
-    "Power Platform",
-    "SharePoint",
-    "Microsoft Teams"
-  ],
-  "tags": [
-    "APPROVAL",
-    "ESCALATION",
-    "DOCUMENT MANAGEMENT",
-    "SHAREPOINT",
-    "TEAMS"
-  ],
-  "categories": [
-    "Power Automate"
-  ],
-  "metadata": [
-    {
-      "key": "prompt",
-      "value": "Build a workflow that monitors a SharePoint document library, routes to a reviewer, escalates after 48 hours, and posts the decision to Teams."
-    }
-  ],
-  "thumbnails": [],
-  "authors": [
-    {
-      "gitHubAccount": "OwnOptic",
-      "name": "OwnOptic",
-      "pictureUrl": "https://github.com/OwnOptic.png"
-    }
-  ],
-  "creationDateTime": "2026-03-02T00:00:00Z",
-  "updateDateTime": "2026-03-02T00:00:00Z"
-}
+[
+  {
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+    "name": "pnp-powerplatform-prompts-document-approval-with-escalation",
+    "version": "1.0.0.0",
+    "source": "pnp",
+    "creationDateTime": "2026-03-02T00:00:00Z",
+    "updateDateTime": "2026-03-02T00:00:00Z",
+    "title": "Document Approval with Escalation",
+    "shortDescription": "Power Automate workflow that routes new SharePoint documents to reviewers, escalates to managers after 48 hours, and posts the final decision to Teams.",
+    "longDescription": [
+      "This Power Automate prompt creates a multi-stage document approval flow: triggered on new SharePoint file uploads, it looks up the reviewer from a mapping list, sends an approval request, waits 48 hours, escalates to the department manager if unresponded, then updates the SharePoint status column and posts the outcome to a Teams channel. Demonstrates the timeout-and-escalate pattern."
+    ],
+    "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/power-automate/document-approval-with-escalation",
+    "products": [
+      "Power Automate",
+      "Power Platform",
+      "SharePoint",
+      "Microsoft Teams"
+    ],
+    "tags": [
+      "APPROVAL",
+      "ESCALATION",
+      "DOCUMENT MANAGEMENT",
+      "SHAREPOINT",
+      "TEAMS"
+    ],
+    "categories": [
+      "Power Automate"
+    ],
+    "metadata": [
+      {
+        "key": "prompt",
+        "value": "Build a workflow that monitors a SharePoint document library, routes to a reviewer, escalates after 48 hours, and posts the decision to Teams."
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/powerplatform-prompts/main/templates/previewprompts.png",
+        "alt": "Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "OwnOptic",
+        "name": "OwnOptic",
+        "pictureUrl": "https://github.com/OwnOptic.png"
+      }
+    ]
+  }
+]
