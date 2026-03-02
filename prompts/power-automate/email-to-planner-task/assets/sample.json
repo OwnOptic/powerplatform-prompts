@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+  "name": "pnp-powerplatform-prompts-email-to-planner-task",
+  "version": "1.0.0.0",
+  "title": "Email to Planner Task",
+  "shortDescription": "Converts flagged Outlook emails into Planner tasks with subject as title, sender/body context as notes, a 2-business-day due date, and a Teams confirmation notification.",
+  "longDescription": "Monitors an Outlook mailbox for flagged/starred emails and automatically creates a Planner task: subject as title, sender name + received date + first 500 chars of body as notes, due date calculated as 2 business days after receipt, assigned to the mailbox owner. Sends a Teams notification with a direct Planner task link. Solves the universal inbox-to-action pain point with zero behavior change required from the user.",
+  "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/power-automate/email-to-planner-task",
+  "products": [
+    "Power Automate",
+    "Power Platform",
+    "Microsoft Outlook",
+    "Microsoft Planner",
+    "Microsoft Teams"
+  ],
+  "tags": [
+    "PRODUCTIVITY",
+    "EMAIL",
+    "TASK MANAGEMENT",
+    "PLANNER",
+    "OUTLOOK",
+    "TEAMS"
+  ],
+  "categories": [
+    "Power Automate"
+  ],
+  "metadata": [
+    {
+      "key": "prompt",
+      "value": "Build a workflow that converts flagged Outlook emails into Planner tasks with auto-calculated due date and Teams confirmation."
+    }
+  ],
+  "thumbnails": [],
+  "authors": [
+    {
+      "gitHubAccount": "OwnOptic",
+      "name": "OwnOptic",
+      "pictureUrl": "https://github.com/OwnOptic.png"
+    }
+  ],
+  "creationDateTime": "2026-03-02T00:00:00Z",
+  "updateDateTime": "2026-03-02T00:00:00Z"
+}
