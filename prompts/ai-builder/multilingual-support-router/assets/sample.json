@@ -1,40 +1,52 @@
-{
-  "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
-  "name": "pnp-powerplatform-prompts-multilingual-support-router",
-  "version": "1.0.0.0",
-  "title": "Multilingual Support Router",
-  "shortDescription": "Detects language, classifies, scores urgency, extracts entities, and generates a same-language acknowledgment reply for customer support tickets — returned as strict JSON.",
-  "longDescription": "This AI Builder prompt processes incoming support tickets in any language and returns a structured JSON object with detected language (ISO 639-1), category (Billing/Technical/Account/General), urgency (Critical/High/Normal/Low), extracted entities (product, error code, account ID), and a customer acknowledgment reply written in the same language as the ticket. The strict JSON-only output integrates directly with Power Automate Parse JSON actions.",
-  "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/ai-builder/multilingual-support-router",
-  "products": [
-    "AI Builder",
-    "Power Platform",
-    "Power Automate"
-  ],
-  "tags": [
-    "TEXT GENERATOR",
-    "CUSTOMER SUPPORT",
-    "MULTILINGUAL",
-    "JSON",
-    "CLASSIFICATION"
-  ],
-  "categories": [
-    "AI Builder"
-  ],
-  "metadata": [
-    {
-      "key": "prompt",
-      "value": "Analyze this [support_ticket] and detect language, classify, assess urgency, extract entities, and generate a same-language reply. Return as JSON."
-    }
-  ],
-  "thumbnails": [],
-  "authors": [
-    {
-      "gitHubAccount": "OwnOptic",
-      "name": "OwnOptic",
-      "pictureUrl": "https://github.com/OwnOptic.png"
-    }
-  ],
-  "creationDateTime": "2026-03-02T00:00:00Z",
-  "updateDateTime": "2026-03-02T00:00:00Z"
-}
+[
+  {
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json",
+    "name": "pnp-powerplatform-prompts-multilingual-support-router",
+    "version": "1.0.0.0",
+    "source": "pnp",
+    "creationDateTime": "2026-03-02T00:00:00Z",
+    "updateDateTime": "2026-03-02T00:00:00Z",
+    "title": "Multilingual Support Router",
+    "shortDescription": "Detects language, classifies, scores urgency, extracts entities, and generates a same-language acknowledgment reply for customer support tickets — returned as strict JSON.",
+    "longDescription": [
+      "This AI Builder prompt processes incoming support tickets in any language and returns a structured JSON object with detected language (ISO 639-1), category (Billing/Technical/Account/General), urgency (Critical/High/Normal/Low), extracted entities (product, error code, account ID), and a customer acknowledgment reply written in the same language as the ticket. The strict JSON-only output integrates directly with Power Automate Parse JSON actions."
+    ],
+    "url": "https://github.com/pnp/powerplatform-prompts/tree/main/prompts/ai-builder/multilingual-support-router",
+    "products": [
+      "AI Builder",
+      "Power Platform",
+      "Power Automate"
+    ],
+    "tags": [
+      "TEXT GENERATOR",
+      "CUSTOMER SUPPORT",
+      "MULTILINGUAL",
+      "JSON",
+      "CLASSIFICATION"
+    ],
+    "categories": [
+      "AI Builder"
+    ],
+    "metadata": [
+      {
+        "key": "prompt",
+        "value": "Analyze this [support_ticket] and detect language, classify, assess urgency, extract entities, and generate a same-language reply. Return as JSON."
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/powerplatform-prompts/main/templates/previewprompts.png",
+        "alt": "Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "OwnOptic",
+        "name": "OwnOptic",
+        "pictureUrl": "https://github.com/OwnOptic.png"
+      }
+    ]
+  }
+]
